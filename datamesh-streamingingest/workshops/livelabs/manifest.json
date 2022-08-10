@@ -1,0 +1,45 @@
+{
+    "workshoptitle": "LiveLabs",
+    "help": "livelabs-help-analytics_us@oracle.com",
+    "tutorials": [
+       {
+          "title": "Introduction",
+          "description": "",
+          "filename": "introduction.md"
+       },
+         {
+            "title": "Data Preparation",
+            "description": "",
+            "filename": "data-preparation.md"
+         },
+         {
+            "title": "Create OML model",
+            "description": "",
+            "filename": "create-oml-model.md"
+         },
+         {
+            "title": "Review Microservices",
+            "description": "",
+            "filename": "review-microservices.md"
+         },
+         {
+            "title": "Create pipeline",
+            "description": "",
+            "filename": "create-pipeline.md"
+         },
+         {
+            "title": "Data feed and validation",
+            "description": "",
+            "filename": "data-feed-and-validation.md"
+         },
+         {
+            "title": "OAS data products",
+            "description": "",
+            "filename": "oas-data-products.md"
+         }
+
+    ],
+    "task_type": "Sections",
+    "hide_button": "true"
+ }
+ 
