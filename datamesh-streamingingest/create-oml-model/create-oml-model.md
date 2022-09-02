@@ -10,10 +10,7 @@ Estimated Time: 15 minutes
 
 In this lab, you will complete the following tasks:
 
-- Verify Database Connection
-- Oracle AutoML experiment
-- Explore AutoML Model Results
-- Select a Machine Learning Mode
+- Create Predictive model
 
 ### Prerequisites
 
