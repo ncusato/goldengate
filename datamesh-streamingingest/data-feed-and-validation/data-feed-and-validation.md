@@ -26,7 +26,7 @@ This lab assumes you have:
     $ <copy>ssh -i /keys/bastionkey opc@10.10.0.76</copy>
     ```
 
-    ![Terminal to ssh locally](images/customer-data.png)
+![Terminal to ssh locally](images/customer-data.png)
 
 2. Sudo privilege as Oracle using the following command:
     ```
@@ -47,13 +47,15 @@ This lab assumes you have:
     $ <copy>sh scripts/feed_ingest_script.sh scripts/exportTransactions.sql 1</copy>
     ```
 
-    ![Terminal with output of shell script](images/execute-script.png)
+![Terminal with output of shell script](images/execute-script.png)
 
 ## Task 3: Confirm output on GGSA
 
 1. Returning to the GGSA pipeline, the live output will start to populate. Observe the data flow in each of the steps.
 
-   ![GGSA live output](images/ggsa-output.png)
+![GGSA live output](images/ggsa-output.png)
+
+You may now **proceed to the next lab.**
 
 ## Acknowledgements
 

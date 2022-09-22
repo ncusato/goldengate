@@ -93,6 +93,8 @@ This lab assumes you have:
    
 ![Distribution Service basic information page](images/distribution-service-basic-info.png) 
 
+You may now **proceed to the next lab.**
+
 ## Acknowledgements
 
 - **Author**- Nicholas Cusato, Santa Monica Specialists Hub, July 14, 2022

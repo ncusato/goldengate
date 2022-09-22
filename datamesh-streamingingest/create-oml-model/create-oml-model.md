@@ -21,17 +21,17 @@ This lab assumes you have:
 
 1. With the GGSA Catalog open, select **Create New Item** and from the drop down menu, select **Predictive Model**. 
 
-![Create new predictive model item](images/predictive-model.png) 
+    ![Create new predictive model item](images/predictive-model.png) 
 
 2. In the new window that opens, add a name to the model and select Predictive Model Type **ONNX**. Select **Next** to proceed to updating the rest of the details.
 
-![Select predictive model type](images/select-model-type.png) 
+    ![Select predictive model type](images/select-model-type.png) 
 
 3. Upload the Predictive Model URL and select a model version. 
 
-![Update model details](images/model-details.png) 
+    ![Update model details](images/model-details.png) 
 
-
+You may now **proceed to the next lab.**
 
 ## Acknowledgements
 

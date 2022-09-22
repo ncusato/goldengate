@@ -95,20 +95,63 @@ This lab assumes you have:
 
 1. Click on **NewSpending** stage to see how this source is sent to both Kafka and OAS.
 
-   ![Select spendingpattern to see rules](images/high-rule.png)
+    ![Select spendingpattern to see rules](images/high-rule.png)
 
 ## Task 12: Create a Kafka Stage
 
 1. Click on **SpendingKafka** to view the target mapping.
 
-   ![Target mapping of Kafka Topic](images/kafka-stage.png)
-
+    ![Target mapping of Kafka Topic](images/kafka-stage.png)
 
 ## Task 13: Create an OAS Stage
 
 1. Click on **SpendingAnalytics** to view the target mapping for OAS.
 
-   ![Target mapping for OAS](images/oas-stage.png)
+    ![Target mapping for OAS](images/oas-stage.png)
+
+## Task 14: Create a visualization
+
+1. Right-click on **SpendingFactor** and add a stage. Select **Query Group** and then **Stream,** which will open a popup window.
+    
+    ![Query group option](images/query-stream.png)
+
+2. Name the component **StreamCategorization** and click **Next.**
+
+    ![Name option in popup window](images/name-query.png)
+
+3. Click **Groups** tab and then **Add a Summary.**
+
+    ![StreamCategorization Menu options](images/add-a-summary.png)
+
+4. From the first drop-down menu, Select **Count,** then select **SFactor** on the next drop-down menu to the right.
+
+   ![Count of SFactor options](images/count-sfactor.png)
+
+5. Select **Add a GroupBy** to present a new drop-down menu.
+
+   ![Add a GroupBy menu option](images/groupby.png)
+
+6. Select **SFactor** from the menu options.
+
+   ![list of menu options for group](images/group-sfactor.png)
+
+7. Select the **Visualization** tab and scroll down to select **Add Visualization.**
+
+   ![Visualization tab](images/visualizations.png)
+
+8. Select the **Pie Chart** from the drop-down menu.
+
+   ![pie chart menu options](images/pie-chart.png)
+
+9. Name the visualization **Score** and select **COUNT_of_SFactor** from the Measure menu and **SFactor** from the Group menu. Click **Create** when done.
+
+   ![Properties for Pie Chart](images/score-visualization.png)
+
+10. The result will populate a live chart that will update as the pipeline is populated with data.
+
+   ![Live Pie Chart](images/pie-result.png)
+
+You may now **proceed to the next lab.**
 
 ## Acknowledgements
 
