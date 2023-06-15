@@ -1,4 +1,4 @@
-# Feed Data into Pipeline and Validate
+# Feed Pipeline and Validate
 
 ## Introduction
 
@@ -21,9 +21,9 @@ This lab assumes you have:
 
 ## Task 1: SSH in Terminal
 
-1. Using putty, ssh into the instance.
+1. Within the browser, open a terminal and ssh into the instance.
     ```
-    $ <copy>ssh -i /keys/bastionkey opc@10.10.0.76</copy>
+    $ <copy>ssh -i /keys/bastionkey opc@datameshmain</copy>
     ```
 
 ![Terminal to ssh locally](images/customer-data.png)
